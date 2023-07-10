@@ -69,7 +69,6 @@
     props: {
       city: String
     },
-    
     methods: {
       changeLocation() {
          window.location.reload();
@@ -94,7 +93,6 @@
       }
       catch {
          console.error('not valid Country or City');
-
       }
       // const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${this.city}&units=metric&appid=8331cdef4f10633c84fd856ce65588b0`);
       // console.log('responseeeeee',response)

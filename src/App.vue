@@ -37,7 +37,7 @@ export default {
     },
     startTypingAnimation() {
       const options = {
-        strings: ['Weather Forecast'],
+        strings: ['World-Wide Weather Forecast'],
         typeSpeed: 150, // Speed of typing in milliseconds
         showCursor: false, // Hide the cursor
         onComplete: () => {

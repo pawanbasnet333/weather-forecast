@@ -10,18 +10,21 @@
       </div>
     </div>
     <weather :city="city" v-if="showWeather"></weather>
+    <invalid></invalid>
   </div>
 </template>
 
 <script>
 import Weather from './components/Weather.vue';
+import Invalid from './components/Invalid.vue';
 import Typed from 'typed.js';
 
 
 export default {
   name: 'App',
   components: {
-    Weather
+    Weather,
+    Invalid
   },
   data() {
     return {
